@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #fff;
+    color: #fff;
+}
+
+header{
+    background-color: #3f4eed;
+}
+
+ul li{
+    display: inline-block;
+    margin: 15px;
+    padding: 5px;
+}
+
+ul li:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;   
+}
+
+#logo{
+    margin-left: 100px;
+    font-weight: bold;
+}
+
+#logo img{
+    position: absolute;
+    right: 1250px;
+    top: 5px;
+}
+
+.nav-bar{
+    margin-left: 200px;
+}
+
+#dsc-btn a{
+    margin-left: 120px;
+    background-color: #fff;
+    color: #222829;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+section{
+    height: 550px;
+    background: url('./img/discord01.svg')no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #3f4eed;
+}
+
+.landing-page{
+    width: 800px;
+    padding: 130px 0 0 250px;
+    text-align: center;
+}
+
+.landing-page h1{
+    text-transform: uppercase;
+    font-size: 4rem;
+}
+
+.landing-page p{
+    font-size: 1.3rem;
+    color: #fff;
+}
+
+button{
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 50px;
+    width: 250px;
+    height: 50px;
+    border-color: transparent;
+    font-size: 1rem;
+}
+
+#open-dsc{
+    background-color: #000;
+    color: #fff;
+}
+
+#left-img{
+    position: absolute;
+    left: -340px;
+    bottom: 40px;
+}
+
+#right-img{
+    position: absolute;
+    bottom: 40px;
+    right: -300px;
+}
+
+.info{
+    display: inline-block;
+    width: 600px;
+    padding: 10px;
+    margin: 90px 0 0  20px;
+}
+
+.text{
+    text-align: center;
+    color: #000;
+    height: 450px;
+    width: 400px;
+    vertical-align: bottom;
+    margin-left: 180px;
+}
+
+.text h2{
+    margin-top: 50px;
+    font-size: 2.8rem;
+}
+
+.text p{
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+
+.more-info{
+    background-color: #f6f6f6;
+}
+.more-info h3, p{
+    text-align: center;
+    color: #000;
+    margin-top: 10px;
+}
+
+.more-info h3{
+    padding-top: 100px;
+    font-size: 3rem;
+}
+
+.more-info p{
+    font-size: 1.2rem;
+}
+
+.more-info img{
+    width: 1200px;
+    margin-left: 90px;
+}
+
+.more-info h4{
+    color: #000;
+    font-size: 2rem;
+    margin-left: 450px;
+    padding: 10px;
+    text-align: center;
+    width: 450px;
+    background: url('./img/discord08.svg')no-repeat;
+    background-size: cover;
+}
+
+.more-info button{
+    background-color: #3f4eed;
+    color: #fff;
+    padding: 10px;
+    margin:20px 0 80px 570px;
+}
+
+footer{
+    background-color: #222829;
+    padding: 20px;
+}
+
+footer h5{
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    color: #3f4eed;
+}
+
+footer .option{
+    padding-top: 50px;
+    width: 250px;
+    position: absolute;
+    margin-left: 40px;
+}
+
+footer img{
+    width: 30px;
+}
+
+footer select{
+    background-color: transparent;
+    color: #fff;
+    border-color: transparent;
+}
+
+footer ul{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 50px;
+}
+
+footer ul li{
+    display: block;
+    margin-left: 100px;
+}
+
+
+
+footer .nav-bar{
+    margin-left: 400px;
+}
+
+hr{
+    margin: 70px;
+}
+
+footer p{
+    color: #fff;
+    margin-right: 1100px;
+    margin-left: 30px;
+    font-size: 1.2rem;
+}
+
+footer img{
+    position: absolute;
+    left: 55px;
+    margin-left: 20px;
+}
+
+footer button{
+    margin-left: 1000px;
+    width: 200px;
+    background-color: #3f4eed;
+    color: #fff;
+    position: relative;
+    top: -70px;
+   
+}
